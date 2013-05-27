@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  result: 1
+  question_id: 1
+  character_id: 1
+
+two:
+  result: 1
+  question_id: 1
+  character_id: 1

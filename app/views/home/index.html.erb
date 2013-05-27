@@ -1,0 +1,9 @@
+<h1>Responda as perguntas</h1>
+<%= form_tag("/answers", :method => "post") do %>
+  <%= hidden_field_tag 'question_id', @question.id %>
+  <%= label_tag(@question.question, @question.question) %> </br>
+  <%= radio_button("user", "answer", "S") %> Sim </br>
+  <%= radio_button("user", "answer", "N") %> Não </br>
+  <%= radio_button("user", "answer", "NS") %> Não Sei</br>
+  <%= submit_tag("Responder") %>
+<% end %>
