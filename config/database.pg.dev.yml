@@ -1,0 +1,18 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: postgres://tlugulnzmoiirt:3sDVm4DYjMcgbn5W4SZ_T90Li7@ec2-23-21-129-81.compute-1.amazonaws.com:5432/df1jkp0b9cusha
+  pool: 5
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: postgres://tlugulnzmoiirt:3sDVm4DYjMcgbn5W4SZ_T90Li7@ec2-23-21-129-81.compute-1.amazonaws.com:5432/df1jkp0b9cusha
+  pool: 5
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: postgres://tlugulnzmoiirt:3sDVm4DYjMcgbn5W4SZ_T90Li7@ec2-23-21-129-81.compute-1.amazonaws.com:5432/df1jkp0b9cusha
+  pool: 5
+

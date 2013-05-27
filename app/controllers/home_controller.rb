@@ -1,5 +1,10 @@
 class HomeController < ApplicationController
   def index
+
+    if Character.all.count == 0 || Question.all.count == 0
+      return redirect_to admin_root_path
+    end
+
     session_id = request.session_options[:id]
     logger.debug 'Session Id: ' + session_id
     user_score = UserScore.where(:session_id => session_id)
